@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pane_project"
+        android:title="@string/menu_bottom_navigation_project"
+        android:icon="@drawable/ic_file_tree_grey600_24dp"
+        android:enabled="true"/>
+    <item
+        android:id="@+id/pane_cpu"
+        android:title="@string/menu_bottom_navigation_cpu"
+        android:icon="@drawable/ic_memory_grey600_24dp"
+        android:enabled="true"/>
+    <item
+        android:id="@+id/pane_gpu"
+        android:title="@string/menu_bottom_navigation_gpu"
+        android:icon="@drawable/ic_vector_triangle_grey600_24dp"
+        android:enabled="true"/>
+    <item
+        android:id="@+id/pane_render"
+        android:title="@string/menu_bottom_navigation_render"
+        android:icon="@drawable/ic_movie_open_grey600_24dp"
+        android:enabled="true"/>
+    <item
+        android:id="@+id/pane_settings"
+        android:title="@string/menu_bottom_navigation_settings"
+        android:icon="@drawable/ic_dots_vertical_grey600_24dp"
+        android:enabled="true"/>
+</menu>

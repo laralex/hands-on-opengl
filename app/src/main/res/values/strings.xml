@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hands-on OpenGL</string>
+    <string name="menu_bottom_navigation_project">Project</string>
+    <string name="menu_bottom_navigation_cpu">CPU</string>
+    <string name="menu_bottom_navigation_gpu">GPU</string>
+    <string name="menu_bottom_navigation_render">Render</string>
+    <string name="menu_bottom_navigation_settings">Settings</string>
+</resources>
