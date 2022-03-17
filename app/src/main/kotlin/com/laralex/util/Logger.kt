@@ -4,7 +4,8 @@ import android.util.Log
 import java.util.*
 
 object Logger {
-    val TAG = Constants.makeTag("Logger")
+    val TAG = javaClass.name
+
     const val LOGGING_LEVEL = Log.DEBUG
     fun a(tag: String?, msgFormat: String?, vararg args: Any?) {
         log(Log.ASSERT, tag, msgFormat, *args)

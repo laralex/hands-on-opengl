@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "com.laralex.handson_opengl"
-        minSdk 16
+        minSdk 18
         targetSdk 21
         versionCode 1
         versionName "0.1"
